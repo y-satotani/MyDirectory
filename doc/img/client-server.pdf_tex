@@ -1,0 +1,78 @@
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'client-server.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{297.714824bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1.19199751)%
+    \put(0.13496332,1.14965074){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{クライアント}}}%
+    \put(0.80078944,1.14923338){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{サーバ}}}%
+    \put(0.80098781,1.01596765){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{ソケットの作成}}}%
+    \put(0.80099601,0.88275969){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{ソケットの設定}}}%
+    \put(0.80176497,0.74940298){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{接続待ち}}}%
+    \put(0.80119446,0.61610416){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{接続受け付け}}}%
+    \put(0.80137634,0.48262345){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{データ受信}}}%
+    \put(0.80137634,0.34922533){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{データ送信}}}%
+    \put(0.13488217,0.34932488){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{データ受信}}}%
+    \put(0.13488217,0.48252415){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{データ送信}}}%
+    \put(0.13449359,0.74936985){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{ソケットの作成}}}%
+    \put(0.13497312,0.6161951){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{接続要求}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{client-server.pdf}}%
+    \put(0.46821212,0.51645173){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{要求}}}%
+    \put(0.46231871,0.37993718){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{応答}}}%
+    \put(0.83183968,0.53861176){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{要求まで待つ}}}%
+    \put(0.18221437,0.40739062){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{応答まで待つ}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{client-server.pdf}}%
+    \put(0.46275245,0.26973162){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{繰り返し}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{client-server.pdf}}%
+    \put(0.80079764,0.15915414){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{ソケットの解放}}}%
+    \put(0.13466666,0.15049065){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{ソケットの解放}}}%
+    \put(0.74393407,0.02587164){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{次の接続要求の受け付け}}}%
+    \put(0.13683286,0.0169851){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{終了}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{client-server.pdf}}%
+  \end{picture}%
+\endgroup%
